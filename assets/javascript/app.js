@@ -125,7 +125,7 @@ function newQuest(what){
     shuffle(answers);
 
     for (i in answers){
-        a = $("<h3></h3>")
+        a = $("<li>")
         a.text(answers[i])
         a.addClass("answer")
         a.hover(
